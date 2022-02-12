@@ -1,0 +1,30 @@
+# foliage heights
+11,10,9,8,7,6,5,4,3,2
+
+# trunk heights
+3,3,3,3,2,2,1,1,1,1
+
+# trunk widths
+2,2,2,2,2,2,1,1,1,1
+
+# trunk adjustments
+1,0,2,1,0,2,1,0,2,0
+
+# foliage offsets
+3,3,2,2,2,1,1,1,0,0
+
+# selection masks
+#3,3,3,3
+
+# base offsets
+#0,4,8,12
+
+# modulation colors
+7,13,10,13
+
+# modulation threshold
+4
+
+# collision cut-off
+0
+

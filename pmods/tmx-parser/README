@@ -1,0 +1,15 @@
+A simple parser for TMX files created using the popular 'Tiled' map editor.
+See http://www.mapeditor.org/ for more information on 'Tiled'.
+
+Implemented in the Pike programming language:
+http://pike.lysator.liu.se/
+
+At the moment, TMX_parser supports maps in CSV format only.
+You can parse your TMX file and get a TMX_map object in one line of code:
+
+    TMX_parser.TMX_map my_map = TMX_parser.TMX_parser("myfile.tmx")->get_map();
+
+TMX_map simply aggregates all the data contained in the file.  All fields are 
+public with extensive use of inner classes.  Hopefully the source code should
+be pretty self-explanatory.
+

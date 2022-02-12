@@ -1,0 +1,4 @@
+titles2_l_FADE_SQUARES_COLRAM_LO !byte $00,$05,$0a,$0f,$14,$19,$1e,$23,$c8,$cd,$d2,$d7,$dc,$e1,$e6,$eb,$90,$95,$9a,$9f,$a4,$a9,$ae,$b3,$58,$5d,$62,$67,$6c,$71,$76,$7b,$20,$25,$2a,$2f,$34,$39,$3e,$43
+titles2_l_FADE_SQUARES_COLRAM_HI !byte $d8,$d8,$d8,$d8,$d8,$d8,$d8,$d8,$d8,$d8,$d8,$d8,$d8,$d8,$d8,$d8,$d9,$d9,$d9,$d9,$d9,$d9,$d9,$d9,$da,$da,$da,$da,$da,$da,$da,$da,$db,$db,$db,$db,$db,$db,$db,$db
+titles2_l_FADE_SQUARES_SCRRAM_LO !byte $00,$05,$0a,$0f,$14,$19,$1e,$23,$c8,$cd,$d2,$d7,$dc,$e1,$e6,$eb,$90,$95,$9a,$9f,$a4,$a9,$ae,$b3,$58,$5d,$62,$67,$6c,$71,$76,$7b,$20,$25,$2a,$2f,$34,$39,$3e,$43
+titles2_l_FADE_SQUARES_SCRRAM_HI !byte $c4,$c4,$c4,$c4,$c4,$c4,$c4,$c4,$c4,$c4,$c4,$c4,$c4,$c4,$c4,$c4,$c5,$c5,$c5,$c5,$c5,$c5,$c5,$c5,$c6,$c6,$c6,$c6,$c6,$c6,$c6,$c6,$c7,$c7,$c7,$c7,$c7,$c7,$c7,$c7

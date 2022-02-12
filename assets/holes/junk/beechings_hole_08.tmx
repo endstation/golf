@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="200" tilewidth="2" tileheight="2" nextobjectid="65">
+ <properties>
+  <property name="par" value="3"/>
+  <property name="target_x" value="140"/>
+  <property name="target_y" value="180"/>
+  <property name="tee_x" value="140"/>
+  <property name="tee_y" value="390"/>
+ </properties>
+ <objectgroup name="quads">
+  <object id="1" x="120.667" y="364" width="46.6667" height="64">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="2" x="121.75" y="172" width="40" height="26">
+   <properties>
+    <property name="type" value="green"/>
+   </properties>
+  </object>
+  <object id="3" x="139.25" y="167" width="38.5" height="12.5">
+   <properties>
+    <property name="type" value="green"/>
+   </properties>
+  </object>
+  <object id="7" x="92.25" y="210.25" width="13.25" height="20.25">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="8" x="102.75" y="222.75" width="11" height="20.5">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="12" x="110" y="154.5" width="27.75" height="16.25">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="13" x="107.25" y="165.25" width="13" height="16.25">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="14" x="135.25" y="151.25" width="30.25" height="14.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="16" x="136" y="200.25" width="32" height="9.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="17" x="163.75" y="191" width="9.25" height="16.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="18" x="166.25" y="184.25" width="19.25" height="11.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="19" x="180.25" y="178.75" width="9" height="11">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="20" x="182.5" y="172" width="8.75" height="8.75">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="21" x="136.75" y="354.5" width="33.25" height="7.75">
+   <properties>
+    <property name="type" value="bunker"/>
+   </properties>
+  </object>
+  <object id="22" x="168" y="359.75" width="10.5" height="18.25">
+   <properties>
+    <property name="type" value="bunker"/>
+   </properties>
+  </object>
+  <object id="23" x="172.25" y="374.75" width="9.75" height="12.25">
+   <properties>
+    <property name="type" value="bunker"/>
+   </properties>
+  </object>
+  <object id="24" x="120.75" y="272.25" width="21.25" height="52.75">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="25" x="124.5" y="308.25" width="22" height="20.75">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="26" x="139.25" y="295.5" width="21" height="17.25">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="27" x="139.25" y="282.75" width="14.75" height="16.25">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="53" x="101" y="178.75" width="17.25" height="18.25">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="54" x="109.75" y="194.75" width="10.25" height="13.25">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="trees">
+  <object id="4" x="173.75" y="170.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="5" x="166.375" y="176.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="6" x="158.875" y="178" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="9" x="112.875" y="215.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="10" x="106.875" y="219.75" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="11" x="111.375" y="229" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="28" x="112.875" y="269.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="29" x="120.375" y="264.5" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="30" x="124.375" y="263.75" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="31" x="113.625" y="288" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="32" x="114.875" y="292" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="33" x="142.625" y="276.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="34" x="152.125" y="314.75" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="35" x="148.375" y="318" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="36" x="125.625" y="213.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="37" x="129.625" y="215" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="38" x="138.875" y="214.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="39" x="86.875" y="183" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="40" x="117.375" y="216.5" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="41" x="119.375" y="213.5" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="42" x="102.375" y="158.75" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="43" x="122.375" y="207.5" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="44" x="126.375" y="148.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="45" x="133.875" y="142.5" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="46" x="144.375" y="143.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="47" x="147.625" y="145.5" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="48" x="167.375" y="148" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="49" x="170.875" y="152.5" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="50" x="166.875" y="159.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="51" x="156.375" y="169.5" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="52" x="123.625" y="145.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="55" x="103.875" y="199" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="56" x="100.125" y="197" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="57" x="95.375" y="191.5" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="58" x="97.875" y="198.75" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="59" x="94.375" y="202.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="60" x="105.625" y="208.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="61" x="125.875" y="200.25" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="62" x="98.875" y="170" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="63" x="104.125" y="153.75" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="64" x="118.625" y="147.75" width="5.25" height="5.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="waypoints"/>
+</map>

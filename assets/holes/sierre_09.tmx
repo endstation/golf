@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="48" tilewidth="10" tileheight="10" nextobjectid="81">
+ <properties>
+  <property name="hazard_type" value="bunker"/>
+  <property name="par" value="4"/>
+  <property name="target_x" value="26"/>
+  <property name="target_y" value="7"/>
+  <property name="tee_x" value="7"/>
+  <property name="tee_y" value="47"/>
+  <property name="yards" value="358"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="10" tileheight="10" tilecount="1">
+  <image source="tiles.png" width="10" height="10"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="32" height="48" opacity="0.32">
+  <data encoding="csv">
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,
+1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0
+</data>
+ </layer>
+ <objectgroup name="quads">
+  <object id="1" x="220" y="122" width="21" height="70">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="2" x="220.5" y="181" width="19.5" height="119.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="3" x="238" y="289.5" width="20.5" height="81">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="4" x="220.5" y="361" width="23" height="119.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="5" x="200.5" y="1" width="21.5" height="130.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="6" x="59.8182" y="460.182" width="20.2727" height="38.8182">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="7" x="240" y="30.5" width="59" height="69.5">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="8" x="223" y="61" width="37" height="49.5">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="11" x="139.5" y="151" width="60.5" height="69.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="12" x="121" y="170.5" width="38.5" height="40">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="13" x="180.5" y="161" width="41.5" height="49.5">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+  <object id="14" x="81.5" y="90.5" width="99" height="50.5">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="15" x="40" y="110.5" width="60" height="60">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="16" x="20" y="161" width="60" height="119">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="17" x="41" y="270.5" width="79" height="90">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ffaa00" name="triangles">
+  <object id="9" x="221.667" y="30.6667" width="21.3333" height="32.6667">
+   <properties>
+    <property name="omit" value="0"/>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="10" x="258" y="98" width="42" height="12.6667">
+   <properties>
+    <property name="omit" value="2"/>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="18" x="40.5" y="90.5" width="44.5" height="23.5">
+   <properties>
+    <property name="omit" value="0"/>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="19" x="20" y="110.5" width="23.5" height="53.5">
+   <properties>
+    <property name="omit" value="0"/>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="20" x="20" y="278" width="24" height="83">
+   <properties>
+    <property name="omit" value="1"/>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#55aa00" name="trees">
+  <object id="21" x="304.375" y="80.375" width="5.25" height="5.25"/>
+  <object id="22" x="308.375" y="102.375" width="5.25" height="5.25"/>
+  <object id="23" x="296.375" y="118.375" width="5.25" height="5.25"/>
+  <object id="24" x="261.042" y="125.375" width="5.25" height="5.25"/>
+  <object id="25" x="282.375" y="134.375" width="5.25" height="5.25"/>
+  <object id="26" x="269.375" y="118.375" width="5.25" height="5.25"/>
+  <object id="27" x="192.708" y="134.042" width="5.25" height="5.25"/>
+  <object id="28" x="209.375" y="138.708" width="5.25" height="5.25"/>
+  <object id="29" x="203.375" y="150.708" width="5.25" height="5.25"/>
+  <object id="30" x="210.042" y="214.042" width="5.25" height="5.25"/>
+  <object id="31" x="203.375" y="232.708" width="5.25" height="5.25"/>
+  <object id="32" x="246.042" y="261.375" width="5.25" height="5.25"/>
+  <object id="33" x="226.042" y="313.375" width="5.25" height="5.25"/>
+  <object id="34" x="212.042" y="276.042" width="5.25" height="5.25"/>
+  <object id="35" x="250.042" y="381.375" width="5.25" height="5.25"/>
+  <object id="36" x="180.708" y="68.7083" width="5.25" height="5.25"/>
+  <object id="37" x="165.375" y="59.375" width="5.25" height="5.25"/>
+  <object id="38" x="142.042" y="71.375" width="5.25" height="5.25"/>
+  <object id="39" x="126.708" y="63.375" width="5.25" height="5.25"/>
+  <object id="40" x="112.708" y="59.375" width="5.25" height="5.25"/>
+  <object id="41" x="92.7083" y="66.0417" width="5.25" height="5.25"/>
+  <object id="42" x="189.375" y="26.0417" width="5.25" height="5.25"/>
+  <object id="43" x="176.708" y="42.7083" width="5.25" height="5.25"/>
+  <object id="44" x="169.375" y="38.0417" width="5.25" height="5.25"/>
+  <object id="45" x="58.7083" y="73.375" width="5.25" height="5.25"/>
+  <object id="47" x="26.7083" y="88.7083" width="5.25" height="5.25"/>
+  <object id="48" x="22.7083" y="100.042" width="5.25" height="5.25"/>
+  <object id="49" x="43.375" y="70.0417" width="5.25" height="5.25"/>
+  <object id="50" x="42.7083" y="105.375" width="5.25" height="5.25"/>
+  <object id="51" x="24.7083" y="116.042" width="5.25" height="5.25"/>
+  <object id="52" x="32.7083" y="122.708" width="5.25" height="5.25"/>
+  <object id="53" x="34.0417" y="134.042" width="5.25" height="5.25"/>
+  <object id="54" x="24.7083" y="146.708" width="5.25" height="5.25"/>
+  <object id="55" x="28.7083" y="165.375" width="5.25" height="5.25"/>
+  <object id="56" x="22.7083" y="196.708" width="5.25" height="5.25"/>
+  <object id="57" x="32.7083" y="208.708" width="5.25" height="5.25"/>
+  <object id="58" x="21.375" y="222.708" width="5.25" height="5.25"/>
+  <object id="59" x="24.7083" y="246.042" width="5.25" height="5.25"/>
+  <object id="60" x="10.7083" y="109.375" width="5.25" height="5.25"/>
+  <object id="61" x="19.375" y="314.708" width="5.25" height="5.25"/>
+  <object id="62" x="22.0417" y="329.375" width="5.25" height="5.25"/>
+  <object id="63" x="12.0417" y="342.708" width="5.25" height="5.25"/>
+  <object id="64" x="110.042" y="353.375" width="5.25" height="5.25"/>
+  <object id="65" x="102.708" y="312.708" width="5.25" height="5.25"/>
+  <object id="66" x="116.042" y="298.708" width="5.25" height="5.25"/>
+  <object id="67" x="104.042" y="275.375" width="5.25" height="5.25"/>
+  <object id="68" x="116.708" y="262.708" width="5.25" height="5.25"/>
+  <object id="69" x="115.375" y="372.042" width="5.25" height="5.25"/>
+  <object id="70" x="104.042" y="390.042" width="5.25" height="5.25"/>
+  <object id="71" x="93.375" y="409.375" width="5.25" height="5.25"/>
+  <object id="72" x="81.375" y="428.042" width="5.25" height="5.25"/>
+  <object id="73" x="94.7083" y="434.708" width="5.25" height="5.25"/>
+  <object id="74" x="88.7083" y="395.375" width="5.25" height="5.25"/>
+  <object id="75" x="43.375" y="409.375" width="5.25" height="5.25"/>
+  <object id="76" x="35.375" y="394.708" width="5.25" height="5.25"/>
+  <object id="77" x="229.375" y="8.04167" width="5.25" height="5.25"/>
+  <object id="78" x="227.375" y="23.375" width="5.25" height="5.25"/>
+  <object id="79" x="223.375" y="37.375" width="5.25" height="5.25"/>
+ </objectgroup>
+ <objectgroup name="waypoints">
+  <object id="80" x="-19" y="342" width="181" height="140">
+   <properties>
+    <property name="id" value="0"/>
+    <property name="wpx" value="0"/>
+    <property name="wpy" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

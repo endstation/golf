@@ -1,0 +1,14 @@
+TMX files:
+    top_hole_xx.tmx  (xx = number, starting at 01)
+
+Binaries for hole geometry:
+    topholeXX.bin   (XX = hole number, starting at 01)
+
+Overhead binaries:
+    tophole_mapXX.bin (XX = hole number, starting at 01)
+
+Original overhead PNG (save so can load into multipaint):
+    topholemapXX_original.png
+Cropped overhead PNG:
+    topholemapXX.png
+

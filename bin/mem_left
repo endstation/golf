@@ -1,0 +1,43 @@
+#!/usr/bin/env pike
+
+mapping(string:int) hex_letters_to_decimal = 
+        (["0":0, "1":1, "2":2, "3":3, "4":4, "5":5, "6":6, "7":7, "8":8, "9":9,
+          "a":10, "b":11, "c":12, "d":13, "e":14, "f":15]);
+
+int main(int argc, array(string) argv)
+{
+    string filename = argv[1];
+    Stdio.File fin = Stdio.File(filename, "r");
+    Iterator iter = fin->line_iterator();
+
+    int looking = 1;
+    string myline;
+    while (looking)
+    {
+        myline = iter->value();
+        if (search(myline, "end_of_play") == 0)
+        {
+            looking = 0;
+        } // if
+        iter->next();
+    } // while
+
+    fin->close();
+    string hexval = myline[15..18];
+    int mem_left = 0xc800 - hex_str_to_decimal(hexval);
+    write("Bytes left: %d [%fkb]\n", mem_left, mem_left/1024.0);
+    return 0;
+
+} // main()
+
+int hex_str_to_decimal(string hex_str)
+{
+    // Hex number has 2 digits - an upper and a lower nybble.
+    int byte3 = hex_letters_to_decimal[hex_str[0..0]];
+    int byte2 = hex_letters_to_decimal[hex_str[1..1]]; 
+    int byte1 = hex_letters_to_decimal[hex_str[2..2]];
+    int byte0 = hex_letters_to_decimal[hex_str[3..3]];
+    return byte0 + (byte1*16) + (byte2*16*16) + (byte3*16*16*16);
+
+} // hex_str_to_decimal()
+

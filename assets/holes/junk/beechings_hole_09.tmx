@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="200" tilewidth="2" tileheight="2" nextobjectid="63">
+ <properties>
+  <property name="par" value="3"/>
+  <property name="target_x" value="50"/>
+  <property name="target_y" value="210"/>
+  <property name="tee_x" value="120"/>
+  <property name="tee_y" value="380"/>
+ </properties>
+ <objectgroup name="trees">
+  <object id="43" x="37.375" y="194.875" width="3.875" height="4.25"/>
+  <object id="44" x="41.125" y="199.75" width="4" height="4"/>
+  <object id="45" x="40.75" y="213.125" width="4" height="4"/>
+  <object id="46" x="39.125" y="201.625" width="4" height="4"/>
+  <object id="47" x="54" y="215" width="4" height="4"/>
+  <object id="48" x="45.25" y="213.75" width="4" height="4"/>
+  <object id="49" x="66.75" y="204.25" width="4" height="4"/>
+  <object id="50" x="61.625" y="198.125" width="4" height="4"/>
+  <object id="51" x="64.625" y="196.875" width="4" height="4"/>
+  <object id="52" x="86.25" y="204" width="4" height="4"/>
+  <object id="53" x="80" y="173.75" width="4" height="4"/>
+  <object id="54" x="90.75" y="189.5" width="4" height="4"/>
+  <object id="55" x="110.75" y="234.75" width="4" height="4"/>
+  <object id="56" x="111.75" y="225" width="4" height="4"/>
+  <object id="57" x="108.75" y="228.625" width="4" height="4"/>
+  <object id="58" x="119.5" y="233.5" width="4" height="4"/>
+  <object id="59" x="127" y="229.125" width="4" height="4"/>
+  <object id="60" x="112.125" y="240.625" width="4" height="4"/>
+  <object id="61" x="106" y="239.25" width="4" height="4"/>
+  <object id="62" x="114.625" y="242.5" width="4" height="4"/>
+ </objectgroup>
+ <objectgroup name="quads">
+  <object id="1" x="94" y="299" width="48" height="121">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="2" x="100" y="258" width="49" height="64">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="3" x="114" y="240" width="44" height="33">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="4" x="129" y="178" width="18" height="70">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="5" x="116" y="161" width="23" height="32">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="6" x="86" y="140" width="38" height="34">
+   <properties>
+    <property name="type" value="fairway"/>
+   </properties>
+  </object>
+  <object id="7" x="47" y="202" width="16" height="13">
+   <properties>
+    <property name="type" value="green"/>
+   </properties>
+  </object>
+  <object id="8" x="54.75" y="200" width="14.25" height="5">
+   <properties>
+    <property name="type" value="green"/>
+   </properties>
+  </object>
+  <object id="9" x="53" y="219.5" width="29.5" height="18.5">
+   <properties>
+    <property name="type" value="bunker"/>
+   </properties>
+  </object>
+  <object id="10" x="65.75" y="209" width="20.75" height="18.75">
+   <properties>
+    <property name="type" value="bunker"/>
+   </properties>
+  </object>
+  <object id="11" x="71.625" y="180.5" width="12.375" height="30.875">
+   <properties>
+    <property name="type" value="bunker"/>
+   </properties>
+  </object>
+  <object id="12" x="42.6364" y="188.909" width="32.6875" height="8.89205">
+   <properties>
+    <property name="type" value="bunker"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="waypoints"/>
+</map>

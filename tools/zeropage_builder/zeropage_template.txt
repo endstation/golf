@@ -1,0 +1,157 @@
+; *****************
+; *** CONSTANTS ***
+; *****************
+; 8 slots to use for subroutine parameters (or return values).
+P0
+P1
+P2
+P3
+P4
+P5
+P6
+P7
+
+; 8 slots for use inside maths routines.
+MATHS0
+MATHS1
+MATHS2
+MATHS3
+MATHS4
+MATHS5
+MATHS6
+MATHS7
+
+XCOS_LO
+XCOS_HI
+XSIN_LO
+XSIN_HI
+ZCOS_LO
+ZCOS_HI
+ZSIN_LO
+ZSIN_HI
+
+TREES_LO
+TREES_HI
+
+CAMERA0
+CAMERA1
+CAMERA2
+CAMERA3
+
+BITMAP_LO
+BITMAP_HI
+PATTERN_LO
+PATTERN_HI
+VM_LO
+VM_HI
+COLORS_LO
+COLORS_HI
+
+LINE_X0_LO
+LINE_Y0_LO
+LINE_X1_LO
+LINE_Y1_LO
+
+EDGES_LO
+EDGES_HI
+
+; Use this with the 'wind' and 'slope' modules.
+WS_X_LO
+WS_X_HI
+WS_Z_LO
+WS_Z_HI
+
+PARTSYS_LO
+PARTSYS_HI
+
+BALL_TRI_X_LO
+BALL_TRI_X_HI
+BALL_TRI_Z_LO
+BALL_TRI_Z_HI
+
+POWARC_LO
+POWARC_HI
+POWARC_FILL_SRC_ITER_LO
+POWARC_FILL_SRC_ITER_HI
+POWARC_COPY_LO
+POWARC_COPY_HI
+
+INTERRUPTS_LO
+INTERRUPTS_HI
+
+SIGN_CHANGED
+RANDOM_X_TMP
+
+; For exclusive use of 'titles2' module (fading stuff).
+FADE_CR_LO
+FADE_CR_HI
+FADE_SR_LO
+FADE_SR_HI
+FADE_CR_SRC_LO
+FADE_CR_SRC_HI
+FADE_SR_SRC_LO
+FADE_SR_SRC_HI
+
+; When signing in (editing name).
+CURSOR_POS_LO
+CURSOR_POS_HI
+CURSOR_POS_SR_LO
+CURSOR_POS_SR_HI
+
+SND_CH1_DATA_ZP_LO
+SND_CH1_DATA_ZP_HI
+SND_CH2_DATA_ZP_LO
+SND_CH2_DATA_ZP_HI
+SND_CH3_DATA_ZP_LO
+SND_CH3_DATA_ZP_HI
+; Temporary zp store for 'init' data.
+SND_INIT_DATA_ZP_LO
+SND_INIT_DATA_ZP_HI
+; Temporary zp store for SID regs base address.
+SND_REGS_BASE_ZP_LO
+SND_REGS_BASE_ZP_HI
+
+; NOTE: source is offscreen copy of the power-arc icon.
+; Destination is the bitmap.
+; FIXME: probably don't need separate z.p. variables for this!!!
+PUTT_ASSIST_SRC_ZP_LO
+PUTT_ASSIST_SRC_ZP_HI
+PUTT_ASSIST_DEST_ZP_LO
+PUTT_ASSIST_DEST_ZP_HI
+
+
+; *****************
+; *** VARIABLES ***
+; *****************
+
+
+; *******************
+; ****** MACROS *****
+; *******************
+
+
+; *******************
+; *** SUBROUTINES ***
+; *******************
+
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+; **************************************************
+

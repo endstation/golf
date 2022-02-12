@@ -1,0 +1,54 @@
+#!/usr/bin/env pike
+
+int main(int argc, array(string) argv)
+{
+    if (argc != 3)
+    {
+        werror("Usage: pike label_sort <infile> <outfile>\n");
+        exit(1);
+    } // if
+
+    string filein = argv[1];
+    string fileout = argv[2];
+
+    mapping lv_pairs = ([]);
+
+    Stdio.File fin = Stdio.File(filein, "r");
+    Iterator iter = fin->line_iterator();
+    do
+    {
+        string s = iter->value();
+        //write("%s", s);
+        int i = search(s, ";");
+        int j = search(s, "=");
+        string label = s[0..(j-1)];
+        string value;
+        if (i < 1) 
+        {
+            value = s[(j+1)..];
+        }
+        else 
+        {
+            value = s[(j+1)..(i-1)];
+        } // if ... else
+        label = String.trim_all_whites(label);
+        value = String.trim_all_whites(value);
+        lv_pairs[value] = label;
+    } while (iter->next());
+    fin->close();
+
+    //write("%O\n", lv_pairs);
+
+    Stdio.File fout = Stdio.File(fileout, "wct");
+    array is = indices(lv_pairs);
+    sort(is);
+    foreach (is, string s)
+    {
+        fout->write("%s: %s\n", s, lv_pairs[s]);
+    } // foreach
+    fout->close();
+
+    return 0;
+
+} // main()
+

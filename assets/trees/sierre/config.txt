@@ -1,0 +1,33 @@
+# foliage heights
+11,10,9,8,7,6,5,4,3,2
+
+# trunk heights
+3,3,3,3,2,2,2,1,1,1
+
+# trunk widths
+2,2,2,2,2,1,1,1,1,1
+
+# trunk adjustments
+1,1,1,1,1,1,1,1,1,2
+
+# foliage offsets
+# Offset from lhs of pattern to trunk.
+4,3,3,2,2,2,1,1,1,0
+
+# selection masks
+#3,3,3,3
+
+# base offsets
+#0,4,8,12
+
+# modulation colors
+# Add WHITE for snow!!!
+7,13,1,1
+
+# modulation threshold
+4
+
+# collision cut-off
+# Tile ID's >= to this value will not be added to the collision matrix.
+5
+

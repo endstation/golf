@@ -41,7 +41,7 @@ finale_s_init
 ; *** CONSTANTS ***
 ; *****************
 finale_c_THE_BITMAP
-!source "../../assets/pictures/best_rounds_template.asm"
+!source "../../assets/pictures/best_rounds_template2.asm"
 
 finale_l_BEST_NAME_OFFSETS  !byte   0,10,20
 finale_c_BEST_SCORE_BASE = finale_v_best_rounds_data+(3*shared_c_MAX_NAME_LEN)
